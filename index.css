@@ -1,0 +1,111 @@
+* {
+	background-color: #1d2021;
+	font-family: "Victor Mono";
+}
+
+div#app {
+	color: #1d2021;
+	/*display: flex;*/
+	/*justify-content: flex-start;*/
+	/*flex-direction: row;*/
+}
+
+div.nav {
+	display: flex;
+	height: 5%;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 1rem;
+	border: solid 2px #ebdbb2;
+}
+
+div.chat-section {
+	display: flex;
+	height: 100%;
+}
+
+div.chat-collection {
+	border-color: #ebdbb2;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 1rem;
+	width: 20%;
+	margin: 1rem;
+}
+
+div.chat-box {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+div.chat-messages-group {
+	background-color: #1d2021;
+	height: 90%;
+	border: solid 2px #ebdbb2;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.typing-window {
+	width: 100%;
+	flex-grow: 1;
+	background-color: #1d2021;
+	color: #ebdbb2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border: solid 2px #ebdbb2;
+	border-radius: 1rem;
+}
+
+div.empty-filler {
+	background-color: #928374;
+	visibility: hidden;
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.search_bar {
+	background-color: #e7d7ad;
+	border-radius: 2rem;
+	display: flex;
+	flex-direction: row;
+	padding-right: 1rem;
+}
+
+#search {
+	width: 1.0rem;
+	background-color: #00000000;
+}
+
+#menu {
+	width: 1.5rem;
+	color: #ffffff;
+	background-color: #00000000;
+	margin-right: 1rem;
+	border: solid 2px #ebdbb2;
+	border-radius: 1rem;
+}
+
+.profile-container {
+	width: auto;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+#profile-picture {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #ebdbb2;
+	border-width: 2px;
+	margin-left: 1rem;
+}
