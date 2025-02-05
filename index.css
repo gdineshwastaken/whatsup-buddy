@@ -1,9 +1,7 @@
 * {
 	background-color: #ECEFF2;
-	font-family: "Victor Mono";
+	font-family: "Inter";
 }
-
-div#app {}
 
 div.nav {
 	display: flex;
@@ -11,7 +9,7 @@ div.nav {
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 1rem;
-	border: solid 2px #2E3440;
+	border: solid 2px #35897E;
 }
 
 div.chat-section {
@@ -20,7 +18,7 @@ div.chat-section {
 }
 
 div.chat-collection {
-	border-color: #2E3440;
+	border-color: #58CE72;
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 1rem;
@@ -49,7 +47,7 @@ div.chat-collection {
 
 .chat-item-name {
 	background-color: inherit;
-	color: #2E3440;
+	color: #1D2021;
 	/*font-size: 1rem;*/
 	align-items: center;
 	justify-content: center;
@@ -77,7 +75,7 @@ div.chat-collection {
 
 	border-width: 0.2rem;
 	border-style: solid;
-	border-color: #81A1C1;
+	border-color: #435A64;
 	border-radius: 0.7rem;
 	margin: 0.4rem;
 	padding: 0.4rem;
@@ -86,7 +84,7 @@ div.chat-collection {
 .chat-item:hover {
 	transition: 0.2s;
 	transition-timing-function: ease-in;
-	background-color: #81A1C1;
+	background-color: #35897E;
 }
 
 .chat-history-header {
@@ -95,13 +93,14 @@ div.chat-collection {
 	justify-content: space-between;
 	padding: 1rem;
 	margin: 0.5rem;
-	background-color: #434C5E;
+	border-color: #435A64;
 	border-radius: 2rem;
+	border-style: solid;
 }
 
 .chat-header-name {
 	background-color: inherit;
-	color: #ECEFF2;
+	color: #1D2021;
 	align-self: center;
 }
 
@@ -126,7 +125,8 @@ div.chat-collection {
 }
 
 .chat-history-message {
-	background-color: #2E3440;
+	border-color: #435A64;
+	border-style: solid;
 	padding: 1rem;
 	margin: 0.5rem;
 	border-radius: 0.5rem;
@@ -137,11 +137,11 @@ div.chat-collection {
 
 .chat-history-content {
 	background-color: inherit;
-	color: #ECEFF2;
+	color: #1D2021;
 }
 
 .chat-history-timestamp {
-	color: #ECEFF2;
+	color: #1D2021;
 	font-size: 0.7rem;
 	background-color: inherit;
 }
@@ -159,7 +159,7 @@ div.chat-box {
 }
 
 div.chat-messages-group {
-	background-color: #ECEFF2;
+	/*background-color: #1D2021;*/
 	height: 90%;
 	border: solid 2px #2E3440;
 	border-radius: 1rem;
@@ -174,6 +174,8 @@ div.chat-messages-group {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* doesn't work */
+	border-color: #35897E;
 
 	/*border: solid 2px #2E3440;*/
 	/*border-radius: 1rem;*/
@@ -189,7 +191,7 @@ div.chat-messages-group {
 }
 
 div.empty-filler {
-	background-color: #2E3440;
+	background-color: inherit;
 	visibility: hidden;
 	display: flex;
 	justify-content: flex-end;
@@ -197,7 +199,7 @@ div.empty-filler {
 
 div.search_bar {
 	/* background-color: #2E3440; */
-	border: 2px solid #2E3440;
+	border: 2px solid #35897E;
 	border-radius: 2rem;
 	display: flex;
 	flex-direction: row;
