@@ -1,3 +1,4 @@
+<!--<!DOCTYPE html>-->
 <html>
 
 <head>
@@ -26,21 +27,54 @@
 		</div>
 		<div class="chat-section">
 			<div class="chat-collection">
-				<div class="chat-item">
-					<img class="chat-item-profile" src="./assets/dp.png"/>
-					<h1 class="chat-item-name">Barry McKaukinner</h1>
+				<div class="chat-item-container">
+					<div class="chat-item">
+						<img class="chat-item-profile" src="./assets/dp.png" />
+						<h4 class="chat-item-name">Dinesh Kumar G</h4>
+					</div>
+				</div>
+				<div class="chat-item-container">
+					<div class="chat-item">
+						<img class="chat-item-profile" src="./assets/dp.png" />
+						<h4 class="chat-item-name">Kiran Rohith T</h4>
+					</div>
+				</div>
+				<div class="chat-item-container">
+					<div class="chat-item">
+						<img class="chat-item-profile" src="./assets/dp.png" />
+						<h4 class="chat-item-name">Akshay Prakash V</h4>
+					</div>
 				</div>
 			</div>
 			<div class="chat-box">
 				<div class="chat-messages-group">
-					This is where your chat messages appear
+					<div class="chat-history-header">
+						<img class="chat-header-profile" src="./assets/dp.jpg">
+						<p id="chat-history-header-name" class="chat-header-name">Dinesh Kumar G</p>
+						<img class="chat-header-menu" src="./assets/options.svg">
+					</div>
+
+					<div class="chat-history-body-container">
+						<div class="chat-history-body">
+							<!--<div class="chat-history-message">-->
+							<!--<div class="chat-history-content">-->
+							<!--	Hello, World-->
+							<!--</div>-->
+							<!--<div class="chat-history-timestamp">-->
+							<!--	13:01-->
+							<!--</div>-->
+							<!--</div>-->
+						</div>
+					</div>
 				</div>
 				<div class="typing-window">
-					This is a typing window
+					<input id="input_area" class="chat-typing-window" type="text" placeholder="Type your message" />
 				</div>
 			</div>
 		</div>
 	</div>
+	<script src="./index.js">
+	</script>
 </body>
 
 </html>
