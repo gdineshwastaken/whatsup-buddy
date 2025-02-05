@@ -122,6 +122,7 @@ div.chat-collection {
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: column;
+	width: 80%;
 }
 
 .chat-history-message {
