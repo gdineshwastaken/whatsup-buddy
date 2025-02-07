@@ -1,0 +1,7 @@
+Hi Find the logs here.
+2025/02/07 10:33:11 [emerg] 2368#7884: "root" directive is not allowed here in C:\Users\gdinesh\dinesh\whatsup/conf/nginx.conf:1
+2025/02/07 10:33:39 [emerg] 15664#11432: "root" directive is not allowed here in C:\Users\gdinesh\dinesh\whatsup/conf/nginx.conf:2
+2025/02/07 10:36:45 [emerg] 2240#5688: directive "root" is not terminated by ";" in C:\Users\gdinesh\dinesh\whatsup/conf/nginx.conf:4
+2025/02/07 10:37:01 [emerg] 5100#9168: no "events" section in configuration
+2025/02/07 10:53:14 [emerg] 9228#11960: CreateDirectory() "C:\Users\gdinesh\dinesh\whatsup/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2025/02/07 10:54:46 [error] 14184#15436: *4 CreateFile() "C:\Users\gdinesh\dinesh\whatsup/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
