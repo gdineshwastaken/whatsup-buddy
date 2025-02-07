@@ -48,7 +48,6 @@ div.chat-collection {
 .chat-item-name {
 	background-color: inherit;
 	color: #1D2021;
-	/*font-size: 1rem;*/
 	align-items: center;
 	justify-content: center;
 }
